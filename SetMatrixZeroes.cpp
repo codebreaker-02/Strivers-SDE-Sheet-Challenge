@@ -1,4 +1,3 @@
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -7,10 +6,7 @@ vector<vector<int>> zeroMatrix(vector<vector<int>> &matrix, int n, int m) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             if (matrix[i][j] == 0) {
-                // mark i-th row:
                 matrix[i][0] = 0;
-
-                // mark j-th column:
                 if (j != 0)
                     matrix[0][j] = 0;
                 else
