@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+#include<vector>
+#include<iostream>
+#include<algorithm>
+#include<string>
 
 using namespace std;
 void printAns(vector < vector < int >> & ans) {

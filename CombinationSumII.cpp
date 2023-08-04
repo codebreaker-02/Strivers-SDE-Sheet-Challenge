@@ -1,4 +1,7 @@
-#include<bits/stdc++.h>
+#include<vector>
+#include<iostream>
+#include<algorithm>
+#include<string>
 
 using namespace std;
 void findCombination(int ind, int target, vector < int > & arr, vector < vector < int >> & ans, vector < int > & ds) {

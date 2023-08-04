@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+#include<vector>
+#include<iostream>
+#include<algorithm>
+#include<string>
 using namespace std;
 
 void merge(vector<int> &arr, int low, int mid, int high) {
